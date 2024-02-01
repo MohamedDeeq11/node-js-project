@@ -1,0 +1,67 @@
+<!-- login.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- Link the style.css file -->
+    <link rel="stylesheet" href="/style.css">
+
+
+
+</head>
+
+<body class="body  h-100">
+	<div class="authincation d-flex flex-column flex-lg-row flex-column-fluid">
+    <div class="login-aside text-center  d-flex flex-column flex-row-auto"  >
+			<div class="d-flex flex-column-auto flex-column pt-lg-40 pt-15" >
+				<div class="text-center mb-lg-4 mb-2 pt-5 logo">
+				</div>
+				<h5 class="mb-3 text-white">Welcome To Expense Management System!</h5>
+				<p class="mb-4">Please sign-in to your account </p>
+			</div>
+			<div class="aside-image position-relative" style="background-image:url(images/background/pic-2.png);"  >
+				<img class="img1 move-1" src="images/background/pic3.png" alt="">
+				<img class="img2 move-2" src="images/background/pic4.png" alt="">
+				<img class="img3 move-3" src="images/background/pic5.png" alt="">
+				
+			</div>
+		</div>
+		<div class="container flex-row-fluid d-flex flex-column justify-content-center position-relative overflow-hidden p-7 mx-auto"  >
+			<div class="d-flex justify-content-center h-100 align-items-center" >
+				<div class="authincation-content style-2">
+					<div class="row no-gutters">
+						<div class="col-xl-12 tab-content">
+							<div id="sign-up" class="auth-form tab-pane fade show active  form-validation">
+						
+								<form action="/forget" method="post">
+								
+									<div class="mb-3">
+										<label for="exampleFormControlInput1" class="form-label mb-2 fs-13 label-color font-w500">Email address</label>
+									  <input type="email" class="form-control" name="email"   placeholder="Enter Your Email" required>
+									</div>
+									
+										<button class="btn btn-block btn-primary"> <i class="fa-solid fa-right-to-bracket "></i> Send Email</button>
+									
+								</form>
+								<div class="new-account mt-3 text-center">
+									<a class="text-primary" href="/login" >Back</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+</body>
+</html>
